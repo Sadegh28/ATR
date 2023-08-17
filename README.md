@@ -4,7 +4,7 @@
 
 1. Clone Repo
 ```
-git clone https://github.com/Sadegh28/PyIT-MLFS.git
+git clone https://github.com/Sadegh28/ATR.git
 ```
 
 2. Create Conda Environment
