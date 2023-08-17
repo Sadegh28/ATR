@@ -41,7 +41,7 @@ class atr(BaseFS):
             REL1 = rel(X, y, message= 'Relevamce Matrix') 
             X_pruned, y_pruned= self.__PPTprun(X,y)
             y_pruned = y_pruned.reshape(-1,1)
-            REL2 = rel(X_pruned, y_pruned, message= 'Relevamce Matrix (transformed') 
+            REL2 = rel(X_pruned, y_pruned, message= 'Relevamce Matrix (transformed)') 
             RED = red(X, X, message='Redundancy Matrix')
             F = list(range(X.shape[1]))
             S = []
